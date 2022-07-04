@@ -1,0 +1,39 @@
+.home{
+    width: 75vw;
+    height: 70vh;
+}
+.home-main{
+    display: flex;
+    justify-content: space-around;
+    height: 35vh;
+    width: 75vw;
+}
+.home-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #44DDC3;
+    color: white;
+    font-size: 1.2vw;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.home-description strong{
+    color: #6c33f1;
+}
+.home-ContainerImage{
+    width: 40%;
+    height: 100%;
+}
+.home-ContainerImage img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.home-ContainerLogos{
+    margin-top: 2%;
+}
