@@ -1,11 +1,15 @@
 .home{
     width: 75vw;
-    height: 70vh;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .home-main{
     display: flex;
     justify-content: space-around;
-    height: 35vh;
+    height: 40vh;
     width: 75vw;
 }
 .home-description{

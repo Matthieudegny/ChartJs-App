@@ -1,0 +1,11 @@
+.secondChart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+}
+.container-secondChart{
+    width: 40%;
+    margin-left: 5vw;
+}
