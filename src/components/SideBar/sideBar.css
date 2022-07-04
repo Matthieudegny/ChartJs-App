@@ -1,10 +1,12 @@
 .sideBar{
-    height: 70vh;
+    height: 85vh;
     width: 25vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    z-index: 3;
+    background-color: white;
 }
 
 .sideBar a{

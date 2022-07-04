@@ -1,11 +1,17 @@
 .home{
     width: 75vw;
-    height: 70vh;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 .home-main{
     display: flex;
     justify-content: space-around;
-    height: 35vh;
+    height: 40vh;
     width: 75vw;
 }
 .home-description{
@@ -13,12 +19,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 40%;
+    width: 30%;
     height: 100%;
     border-radius: 30px;
     background-color: #44DDC3;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1vw;
     padding: 2%;
     box-sizing: border-box;
 }
@@ -26,7 +32,7 @@
     color: #6c33f1;
 }
 .home-ContainerImage{
-    width: 40%;
+    width: 30%;
     height: 100%;
 }
 .home-ContainerImage img{
@@ -35,5 +41,100 @@
     border-radius: 30px;
 }
 .home-ContainerLogos{
+    background-color: #44DDC3;
+    border-radius: 20px;
     margin-top: 2%;
 }
+.home-ContainerLogos img{
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+/*Clouds*/
+.container-firstCloud {
+    position: absolute;
+    top:85%;
+    left:0%;
+    transform: translate(-50%,-50%);
+    z-index: -3;
+    animation: move 25s infinite;
+  }
+
+.container-secondCloud {
+    position: absolute;
+    top:50%;
+    left:0%;
+    transform: translate(-50%,-50%);
+    animation: move2 29s infinite;
+    z-index: -3;
+} 
+.container-thirdCloud {
+    position: absolute;
+    top:20%;
+    left:0%;
+    transform: translate(-50%,-50%);
+    animation: move3 22s infinite;
+    z-index: -3;
+} 
+
+.cloud {
+    background: #B0ECE3;
+    width: 300px; 
+    height: 70px;
+    border-radius: 150px;	
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    z-index: -3;
+  }  
+ .cloud:after {
+    content: '';
+    background: #B0ECE3;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    left: 50px;
+    z-index: -3;
+  }
+  
+  .cloud:before {
+    content: '';
+    background: #B0ECE3;
+    position: absolute;
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+    top: -90px;
+    right: 40px;
+    z-index: -3;
+  }
+
+  @keyframes move {
+    0% {
+     left:-15%
+      
+    }
+    100%{
+       left:130%
+  }
+  }
+
+  @keyframes move2 {
+    0% {
+     left:-15%
+      
+    }
+    100%{
+       left:130%
+  }
+  }
+
+  @keyframes move3 {
+    0% {
+     left:-15%
+      
+    }
+    100%{
+       left:130%
+  }
+  }

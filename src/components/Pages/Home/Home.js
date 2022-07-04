@@ -31,9 +31,19 @@ function Home() {
       </div>
 
       <div className="home-ContainerLogos">
-      <img src={logos} alt="" className="home-logos-"/>
+        <img src={logos} alt="" className="home-logos-"/>
       </div>
-      
+
+      <div className="container-firstCloud">
+        <div className="cloud"></div> 
+      </div>
+      <div className="container-secondCloud">
+        <div className="cloud"></div>
+      </div>
+      <div className="container-thirdCloud">
+        <div className="cloud"></div>
+      </div>
+    
       
     </div>
   );

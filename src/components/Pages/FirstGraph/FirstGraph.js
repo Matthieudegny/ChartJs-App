@@ -1,66 +1,50 @@
 import './firstGraph.css';
 
-import {
-  Chart,
-  ArcElement,
-  LineElement,
-  BarElement,
-  PointElement,
-  BarController,
-  BubbleController,
-  DoughnutController,
-  LineController,
-  PieController,
-  PolarAreaController,
-  RadarController,
-  ScatterController,
-  CategoryScale,
-  LinearScale,
-  LogarithmicScale,
-  RadialLinearScale,
-  TimeScale,
-  TimeSeriesScale,
-  Decimation,
-  Filler,
-  Legend,
-  Title,
-  Tooltip,
-  SubTitle
-} from 'chart.js';
+import {Bar} from "react-chartjs-2"
+import { Chart as ChartJS } from "chart.js/auto";
 
-Chart.register(
-  ArcElement,
-  LineElement,
-  BarElement,
-  PointElement,
-  BarController,
-  BubbleController,
-  DoughnutController,
-  LineController,
-  PieController,
-  PolarAreaController,
-  RadarController,
-  ScatterController,
-  CategoryScale,
-  LinearScale,
-  LogarithmicScale,
-  RadialLinearScale,
-  TimeScale,
-  TimeSeriesScale,
-  Decimation,
-  Filler,
-  Legend,
-  Title,
-  Tooltip,
-  SubTitle
-);
+const datas = {
+  labels: ["beijing", "Tokyo", "Seoul", "Hong Kong"],
+  datasets: [{
+      data:[240,120,140,130],
+      backgroundColor: [
+          'rgba(255, 99, 132)',
+          'rgba(54, 162, 235)',
+          'rgba(255, 206, 86)',
+          'rgba(54, 162, 205)',
+      ],
+  }]
+}
 
+const options = {
+  scales: {
+      y:{
+          //taille max de y
+          suggestedMax: 500,
+          //modification axe y (siez, padding...)
+          ticks: {
+              font:{
+                  size: 30
+              }
+          }
+      },
+      x:{
+          ticks: {
+              font:{
+                  size: 25
+              }
+          }
+      }
+
+  }
+}
 
 function FirstGraph() {
+  
   return (
-    <div className="FirstGraph">
+    <div className="firstChart">
 
-      Ceci est un FirstGraph
+        <Bar data={datas} options={options}/>
       
     </div>
   );
