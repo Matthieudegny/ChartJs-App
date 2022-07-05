@@ -7,9 +7,9 @@ https://nooco-appli.netlify.app/
 
 ## Technologies Used
 
-✔️ React
-✔️ Redux
-✔️ ChartJs
+✔️ React\
+✔️ Redux\
+✔️ ChartJs\
 ✔️ CSS
 
 Redux is used here only for demonstartion.
