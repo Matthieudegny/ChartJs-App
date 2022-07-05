@@ -1,7 +1,6 @@
 import logoNooco from '../../public/logoNooco.png'
 import './header.css';
 
-
 function Header() {
   return (
     <div className="header">

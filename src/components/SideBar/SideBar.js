@@ -13,9 +13,7 @@ import TimelineIcon from '@mui/icons-material/Timeline';
 import EqualizerIcon from '@mui/icons-material/Equalizer';
 import DataUsageIcon from '@mui/icons-material/DataUsage';
 
-
 function SideBar() {
-
 
   return (
     <div className="sideBar">
@@ -32,7 +30,6 @@ function SideBar() {
 
       </NavLink>
      
-  
       <NavLink
           to="customers"
           style={({ isActive }) => ({color: isActive ? "#9EC6BE" : "#44DDC3"})}
@@ -61,7 +58,6 @@ function SideBar() {
           style={({ isActive }) => ({color: isActive ? "#9EC6BE" : "#44DDC3"})}
       >
         
-           
         <div className="sideBar-items">
           <DataUsageIcon />
           <div>Bilan</div>

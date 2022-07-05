@@ -3,8 +3,6 @@ import './home.css';
 import image1 from '../../../public/picture1.png';
 import logos from '../../../public/logos.png';
 
-
-
 function Home() {
 
   return (
