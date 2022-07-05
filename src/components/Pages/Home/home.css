@@ -27,6 +27,7 @@
     font-size: 1vw;
     padding: 2%;
     box-sizing: border-box;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
 }
 .home-description strong{
     color: #6c33f1;
@@ -39,6 +40,7 @@
     height: 100%;
     width: 100%;
     border-radius: 30px;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
 }
 .home-ContainerLogos{
     background-color: #44DDC3;

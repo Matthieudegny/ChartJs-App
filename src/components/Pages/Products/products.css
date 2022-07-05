@@ -1,0 +1,23 @@
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+}
+.container-products{
+    width: 40%;
+    margin-left: 5vw;
+    margin-top: 8vh;
+}
+.container-arrayProducts{
+    margin-left: 10%;
+    margin-top: 8vh;
+    border: 1px solid black;
+}
+.container-arrayProducts th{
+    border: 1px solid black;
+}
+.container-arrayProducts td{
+    border: 1px solid black;
+}
