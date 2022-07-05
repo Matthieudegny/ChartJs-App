@@ -27,44 +27,44 @@ function SideBar() {
 
           <div className='sideBar-items'>
             <HomeIcon />
-            <div>Home</div>
+            <div>Accueil</div>
           </div>
 
       </NavLink>
      
   
       <NavLink
-          to="firstGraph"
+          to="customers"
           style={({ isActive }) => ({color: isActive ? "#9EC6BE" : "#44DDC3"})}
       >
       
         <div className="sideBar-items">
           <TimelineIcon />
-          <div>GraphiqueOne</div>
+          <div>Clients</div>
         </div>
             
       </NavLink>
 
       <NavLink
-          to="secondGraph"
+          to="products"
           style={({ isActive }) => ({color: isActive ? "#9EC6BE" : "#44DDC3"})}
       >
         
         <div className="sideBar-items">
          <EqualizerIcon />
-          <div>GraphiqueTwo</div>
+          <div>Produits</div>
         </div>
       </NavLink>
 
       <NavLink
-          to="array"
+          to="records"
           style={({ isActive }) => ({color: isActive ? "#9EC6BE" : "#44DDC3"})}
       >
         
            
         <div className="sideBar-items">
           <DataUsageIcon />
-          <div>Array</div>
+          <div>Bilan</div>
         </div>
             
            

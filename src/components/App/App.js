@@ -1,9 +1,9 @@
 import Header from '../Header/Header'
 import SideBar from '../SideBar/SideBar';
 import Home from '../Pages/Home/Home';
-import FirstGraph from '../Pages/FirstGraph/FirstGraph';
-import SecondGraph from '../Pages/SecondGraph/SecondGraph';
-import Array from '../Pages/Array/Array';
+import Customers from '../Pages/Customers/Customers';
+import Products from '../Pages/Products/Products';
+import Records from '../Pages/Records/Records';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -23,9 +23,9 @@ function App() {
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="firstGraph" element={<FirstGraph />} />
-            <Route path="secondGraph" element={<SecondGraph />} />
-            <Route path="array" element={<Array />} />
+            <Route path="customers" element={<Customers />} />
+            <Route path="products" element={<Products />} />
+            <Route path="records" element={<Records />} />
         </Routes>
         </div>
 
