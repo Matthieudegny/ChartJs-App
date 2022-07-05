@@ -7,7 +7,7 @@ https://nooco-appli.netlify.app/
 
 ## Technologies Used
 
-✔️ 1React
+✔️ React
 ✔️ Redux
 ✔️ ChartJs
 ✔️ CSS
